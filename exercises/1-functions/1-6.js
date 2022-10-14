@@ -10,9 +10,7 @@ context.fillStyle='blue';
 context.fillRect(50,350,300,100);
 
 
-
-context.beginPath();
-context.arc(200,350,80,0, Math.PI,true);
+context.beginPath();   
+context.ellipse(200,350, 100, 50, Math.PI / 1, 0, Math.PI);    
 context.fillStyle='yellow';
 context.fill();
-
